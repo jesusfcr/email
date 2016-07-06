@@ -1,2 +1,7 @@
 = Email
 
+Al diseñar un email es necesario rellenar unos campos mínimos, estos son:
+* Audiencia: Se puede seleccionar desde la pestaña propiedades
+* Dominio: Seleccionamos el que corresponda
+* Queue: Seleccionamos el que corresponda
+* Extract text version: se puede generar la versión texto desde Actions con la opción extract text version
