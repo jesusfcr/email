@@ -1,0 +1,18 @@
+= Usuarios
+
+== Modelo de datos
+
+Tablas relacionadas:
+ * *LOAD_CUSTOMERS*: Tabla temporal con los datos a incorporar de los ficheros SUBSCRIBER_20*.tsv
+ * *LOAD_SUBSCRIPTION*: Tabla temporal con los datos a incorporar de los ficheros 
+ * *CUSTOMER_{BRAND}*: Tablas de usuarios maestra para cada brand.
+ * *SUBS_{BRAND}*: Tablas de subscripciones maestra para cada brand.
+
+== Jobs
+
+Describe los procesos encargados de alimentar las tablas de datos
+* CUSTOMERS
+** CUSTOMERS LOAD CUSTOMER
+** 
+
+

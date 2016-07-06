@@ -1,8 +1,8 @@
 = Summary
 
 . link:README.adoc[Introduction]
-. link:usuarios.adoc[Usuarios]
-. link:importaciones.adoc[Importaciones]
+. link:import/README.adoc[Importaciones]
+.. link:import/usuarios.adoc[Usuarios]
+.. link:import/deals.adoc[Deals]
 . link:journey_map.adoc[Journey Map]
 .. link:email.adoc[Email]
-
