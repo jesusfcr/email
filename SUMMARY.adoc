@@ -1,7 +1,7 @@
 = Summary
 
 . link:README.adoc[Introduction]
-. link:importaciones.adoc[Importaciones]
 . link:usuarios.adoc[Usuarios]
+. link:importaciones.adoc[Importaciones]
 . link:journey_map.adoc[Journey Map]
 
