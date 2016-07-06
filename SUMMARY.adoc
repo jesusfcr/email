@@ -3,4 +3,5 @@
 . link:README.adoc[Introduction]
 . link:importaciones.adoc[Importaciones]
 . link:usuarios.adoc[Usuarios]
+. Journey Map
 
