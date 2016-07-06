@@ -2,5 +2,5 @@
 
 . link:README.adoc[Introduction]
 . link:importaciones.adoc[Importaciones]
-. link:usuarios.adoc[Usuariossss]
+. link:usuarios.adoc[Usuarios]
 
