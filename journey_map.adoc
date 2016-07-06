@@ -2,7 +2,7 @@
 
 Los journey Maps son los encargados de realizar los envíos de los emails, pueden programarse desde la pestaña properties apartado scheduling, si queremos que el envío se realice a diario deberá estar en modo Data Driven, y programaremos que día queremos que empiece en start date y cada cuanto queremos que se envíe, entrando en la opción schedule.
 
-image:scheduling.PNG[alt=""]
+image:images/scheduling.PNG[alt=""]
 
 Los journey maps que tenemos son muy sencillos y están compuestos de dos elementos, la lista de usuarios a los cuales vamos a enviar (audiencia) y el diseño que se va a enviar.
 
