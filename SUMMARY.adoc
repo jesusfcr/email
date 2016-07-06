@@ -4,5 +4,5 @@
 . link:usuarios.adoc[Usuarios]
 . link:importaciones.adoc[Importaciones]
 . link:journey_map.adoc[Journey Map]
-. Emails
+. Assets
 
