@@ -1,6 +1,6 @@
 = Email
 
-Al diseñar un email es necesario rellenar unos campos mínimos, estos son:
+Al diseñar un email es necesario rellenar unos campos mínimos para que no de error y te permita hacer como mínimo test:
 
 * *Audiencia:* Se puede seleccionar desde la pestaña propiedades
 * *Dominio:* Seleccionamos el que corresponda al diseño
@@ -10,3 +10,7 @@ Al diseñar un email es necesario rellenar unos campos mínimos, estos son:
 ** Grid transactional Queue: Es por el que se deben enviar los emails transaccionales, no debería enviarse nada más por ellos.
 ** Grid Planeo Bulk Queue: Es un pool de IPs que pertencen a selligent, lo estamos usando para ver si podemos estar sin Return Path
 * *Extract text version:* se puede generar la versión texto desde Actions con la opción extract text version
+
+* *Subject:* es el asunto que tendrá el email
+
+Aparte de estos campos 
