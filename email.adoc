@@ -1,7 +1,12 @@
 = Email
 
 Al diseñar un email es necesario rellenar unos campos mínimos, estos son:
-* Audiencia: Se puede seleccionar desde la pestaña propiedades
-* Dominio: Seleccionamos el que corresponda
-* Queue: Seleccionamos el que corresponda
-* Extract text version: se puede generar la versión texto desde Actions con la opción extract text version
+
+* *Audiencia:* Se puede seleccionar desde la pestaña propiedades
+* *Dominio:* Seleccionamos el que corresponda al diseño
+* *Queue:* Los diferentes queue que tenemos son:
+** Default Queue: Este no se debe usar para producción
+** Grid bulk Queue: Es por el que enviamos por defecto, contiene las IPs certificadas
+** Grid transactional Queue: Es por el que se deben enviar los emails transaccionales, no debería enviarse nada más por ellos.
+** Grid Planeo Bulk Queue: Es un pool de IPs que pertencen a selligent, lo estamos usando para ver si podemos estar sin Return Path
+* *Extract text version:* se puede generar la versión texto desde Actions con la opción extract text version
