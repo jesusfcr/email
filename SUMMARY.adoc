@@ -5,5 +5,5 @@
 . link:importaciones.adoc[Importaciones]
 . link:journey_map.adoc[Journey Map]
 . Assets
-.. Email
+.. link:email.adoc[Email]
 
