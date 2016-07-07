@@ -5,4 +5,5 @@
 .. link:import/usuarios.adoc[Usuarios]
 .. link:import/deals.adoc[Deals]
 . link:journey_map.adoc[Journey Map]
+.asset
 .. link:email.adoc[Email]
