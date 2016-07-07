@@ -4,8 +4,8 @@
 
 Describe las tablas relacionadas con el proceso de datos
 
-* 
-
+* ARTICLE_PRODUCT
+* DATA_PUBLICATON
 
 == Jobs
 
