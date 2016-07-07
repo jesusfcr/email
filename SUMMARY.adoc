@@ -6,3 +6,5 @@
 .. link:import/deals.adoc[Deals]
 . link:journey_map.adoc[Journey Map]
 .. link:email.adoc[Email]
+. Assets
+
