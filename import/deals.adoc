@@ -1,4 +1,5 @@
-= Usuarios
+= Usuarios: Modelo y procesos de usuarios.
+:toc:
 
 == Modelo de datos
 

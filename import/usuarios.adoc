@@ -6,8 +6,8 @@ Tablas relacionadas:
 
 * *LOAD_CUSTOMERS*: Tabla temporal con los datos a incorporar de los ficheros SUBSCRIBER_20*.tsv
 * *LOAD_SUBSCRIPTION*: Tabla temporal con los datos a incorporar de los ficheros 
-* *CUSTOMER_{BRAND}*: Tablas de usuarios maestra para cada brand.
-* *SUBS_{BRAND}*: Tablas de subscripciones maestra para cada brand.
+* *CUSTOMER___BRAND__*: Tablas de usuarios maestra para cada brand.
+* *SUBS___BRAND__*: Tablas de subscripciones maestra para cada brand.
 
 == Jobs
 
@@ -17,10 +17,10 @@ Describe los procesos encargados de alimentar las tablas de datos:
 
 Batch de jobs que se encarga de actualizar los datos de los usuarios.
 
-* CUSTOMERS LOAD CUSTOMER: LOAD_CUSTOMERS -> CUSTOMER_{BRAND}
-* CUSTOMERS LOAD SUBSCRIPTION: LOAD_SUBSCRIPTION -> SUBS_{BRAND}
+* CUSTOMERS LOAD CUSTOMER: LOAD_CUSTOMERS -> CUSTOMER___BRAND__
+* CUSTOMERS LOAD SUBSCRIPTION: LOAD_SUBSCRIPTION -> SUBS___BRAND__
 * CUSTOMERS BLOCKED: Actualiza el estado del usuario basado en sus subscripciones, actividad,  blacklist, ...
-* CUSTOMERS SUBSCRIPTION: Genera SUBSCRIPTION_{BRAND}
-* CUSTOMERS UPDATE USERS: Actualiza USER_CUSTOMER_{BRAND} con los usuarios activos.
+* CUSTOMERS SUBSCRIPTION: Genera SUBSCRIPTION___BRAND__
+* CUSTOMERS UPDATE USERS: Actualiza USER_CUSTOMER___BRAND__ con los usuarios activos.
 
 
