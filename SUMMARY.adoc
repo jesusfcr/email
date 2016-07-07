@@ -5,6 +5,6 @@
 .. link:import/usuarios.adoc[Usuarios]
 .. link:import/deals.adoc[Deals]
 . link:journey_map.adoc[Journey Map]
-.. link:email.adoc[Email]
+. link:email.adoc[Email]
 . Assets
 
